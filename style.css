@@ -111,7 +111,154 @@ color: tomato ;
 }
 
 .page2{
-    background-color: #f0f0f0;
+    background: #dfe6e2;
 height: 100vh;
 width: 100vw;
+}
+.page2-container{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 20px; */
+    padding: 40px;
+}
+.box1{
+    display: flex;
+    margin-left: 50px;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid rgb(140, 139, 139);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)
+
+}
+.box2{
+    display: flex;
+    margin-left: 50px;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid rgb(140, 139, 139);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)
+
+}
+.box3{
+    display: flex;
+    margin-left: 50px;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid rgb(140, 139, 139);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)
+
+}
+.box4{
+    display: flex;
+    margin-left: 50px;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid rgb(140, 139, 139);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5)
+
+}
+.photoo img{
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+.text h1{
+    font-size: 15px;
+    margin-top: 15px;
+}
+.page2-main{
+text-align: center;
+}
+.page2-main p {
+    font-size: 15px;
+    color: tomato;
+    margin: 10px;
+}
+.page2-main h1{
+    font-size: 45px;
+    margin: 10px;
+
+}
+.page2-main button{
+margin: 40px;
+padding: 10px 20px;
+border-radius: 10px;
+background-color: tomato;
+color: white;
+font-size: 25px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+border: 2px solid tomato;
+
+}
+.page2-main button:hover{
+    background-color: white;
+    color: tomato;
+}
+.main-container{
+ display: flex;
+ justify-content: space-evenly;
+ margin-top: 80px;
+}
+
+.a{
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0,0.5);
+    border-radius: 20px;
+    
+}
+.a  img{
+    height: 100px;
+    width: 150px;
+}
+.b{
+    box-shadow: 0px 0px 10px rgba(0, 0,0,0.5);
+    padding: 20px;
+    border-radius: 20px;
+
+
+}
+.b  img{
+    height: 100px;
+    width: 150px;
+}
+.c{
+    box-shadow: 0px 0px 10px rgba(0, 0,0,0.5);
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.c  img{
+    height: 100px;
+    width: 150px;
+}
+.d{
+    box-shadow: 0px 0px 10px rgba(0, 0,0,0.5);
+    padding: 20px;
+    border-radius: 20px;
+    
+
+}
+.d  img{
+    height: 100px;
+    width: 150px;
+}
+
+.page3{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./PAGE3.jpg);
+    background-size: contain;
+    background-position: right;
+}
+.page3-text{
+    width: 40%;
+    text-align: center;
+    color: white;
+}
+.page3-text h1{
+
 }
